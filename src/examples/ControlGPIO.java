@@ -16,6 +16,8 @@ public class ControlGPIO {
         final GpioPinDigitalOutput outputPin =
                 controller.provisionDigitalOutputPin(RaspiPin.GPIO_29, "ledPin", PinState.LOW);
 
+        outputPin.setShutdownOptions(true, PinState.LOW, PinPullResistance.OFF);
+
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
         System.out.println("GPIO test started\n" +
@@ -23,7 +25,7 @@ public class ControlGPIO {
                 "enter \"on\" to turn on the led\n" +
                 "enter \"off\" to turn off the led\n" +
                 "enter \"p\" to pulse\n" +
-                "enter \"b\" to blink\n" +
+                "enter \"b\" to blink 5 times\n" +
                 "------------------");
 
         String nextInput;
@@ -40,7 +42,11 @@ public class ControlGPIO {
                     outputPin.pulse(1000);
                     break;
                 case "b":
-                    outputPin.blink(1000, 1000);
+                    int count = 5;
+                    while (count > 0) {
+                        outputPin.blink(1000, 1000);
+                        count--;
+                    }
                     break;
                 default:
                     System.out.println("Please, enter \"on\", \"off\", \"p\", \"b\" or \"q\"");

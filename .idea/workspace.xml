@@ -29,8 +29,8 @@
       <file leaf-file-name="ControlGPIO.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/examples/ControlGPIO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29220778">
-              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.8051948">
+              <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -701,7 +701,7 @@
       <created>1459104338797</created>
       <option name="number" value="Default" />
       <updated>1459104338797</updated>
-      <workItem from="1459104341831" duration="8461000" />
+      <workItem from="1459104341831" duration="8725000" />
     </task>
     <task id="LOCAL-00001" summary="GPIO control test">
       <created>1459111860335</created>
@@ -727,11 +727,17 @@
       <option name="project" value="LOCAL" />
       <updated>1459119656614</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="GPIO control test (blink test)">
+      <created>1459119971203</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1459119971203</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8461000" />
+    <option name="totallyTimeSpent" value="8725000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -777,7 +783,8 @@
     <MESSAGE value="GPIO control test" />
     <MESSAGE value="GPIO control test (compiled)" />
     <MESSAGE value="GPIO control test (pulse test)" />
-    <option name="LAST_COMMIT_MESSAGE" value="GPIO control test (pulse test)" />
+    <MESSAGE value="GPIO control test (blink test)" />
+    <option name="LAST_COMMIT_MESSAGE" value="GPIO control test (blink test)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -788,17 +795,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../libs/pi4j-1.0/lib/pi4j-core-sources.jar!/com/pi4j/io/gpio/impl/GpioPinImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.2136753">
-          <caret line="226" column="21" selection-start-line="226" selection-start-column="21" selection-end-line="226" selection-end-column="21" />
-          <folding>
-            <element signature="e#5942#5943#0" expanded="false" />
-            <element signature="e#5992#5993#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../libs/pi4j-1.0/lib/pi4j-core-sources.jar!/com/pi4j/io/gpio/GpioPinDigitalOutput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42735043">
@@ -841,10 +837,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/../../libs/pi4j-1.0/lib/pi4j-core-sources.jar!/com/pi4j/io/gpio/impl/GpioPinImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.7532468">
+          <caret line="568" column="16" selection-start-line="568" selection-start-column="16" selection-end-line="568" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../libs/pi4j-1.0/lib/pi4j-core-sources.jar!/com/pi4j/io/gpio/GpioPin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7077922">
+          <caret line="89" column="16" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/examples/ControlGPIO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29220778">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.8051948">
+          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
