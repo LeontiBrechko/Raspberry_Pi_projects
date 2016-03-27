@@ -42,6 +42,7 @@ public class ControlGPIO {
                     while (count > 0) {
                         outputPin.pulse(1000);
                         Thread.sleep(1000);
+                        count--;
                     }
                     break;
                 default:

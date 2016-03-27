@@ -29,8 +29,8 @@
       <file leaf-file-name="ControlGPIO.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/examples/ControlGPIO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.064935066">
-              <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.64935064">
+              <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -701,7 +701,7 @@
       <created>1459104338797</created>
       <option name="number" value="Default" />
       <updated>1459104338797</updated>
-      <workItem from="1459104341831" duration="9065000" />
+      <workItem from="1459104341831" duration="9162000" />
     </task>
     <task id="LOCAL-00001" summary="GPIO control test">
       <created>1459111860335</created>
@@ -739,11 +739,17 @@
       <option name="project" value="LOCAL" />
       <updated>1459120347154</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="GPIO control test (proper pulse)">
+      <created>1459120947959</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1459120947959</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9065000" />
+    <option name="totallyTimeSpent" value="9162000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -791,7 +797,8 @@
     <MESSAGE value="GPIO control test (pulse test)" />
     <MESSAGE value="GPIO control test (blink test)" />
     <MESSAGE value="GPIO control test (5 sec blink test and shutdown settings)" />
-    <option name="LAST_COMMIT_MESSAGE" value="GPIO control test (5 sec blink test and shutdown settings)" />
+    <MESSAGE value="GPIO control test (proper pulse)" />
+    <option name="LAST_COMMIT_MESSAGE" value="GPIO control test (proper pulse)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -862,8 +869,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/examples/ControlGPIO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.064935066">
-          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.64935064">
+          <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
