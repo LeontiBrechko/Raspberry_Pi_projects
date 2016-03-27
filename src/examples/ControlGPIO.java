@@ -21,7 +21,9 @@ public class ControlGPIO {
         System.out.println("GPIO test started\n" +
                 "enter \"q\" to exit\n" +
                 "enter \"on\" to turn on the led\n" +
-                "enter \"off\" to turn off the led" +
+                "enter \"off\" to turn off the led\n" +
+                "enter \"p\" to pulse\n" +
+                "enter \"b\" to blink\n" +
                 "------------------");
 
         String nextInput;
@@ -37,8 +39,11 @@ public class ControlGPIO {
                 case "p":
                     outputPin.pulse(1000);
                     break;
+                case "b":
+                    outputPin.blink(1000, 1000);
+                    break;
                 default:
-                    System.out.println("Please, enter \"on\", \"off\", \"p\" or \"q\"");
+                    System.out.println("Please, enter \"on\", \"off\", \"p\", \"b\" or \"q\"");
                     break;
             }
             System.out.print("Enter the option: ");
