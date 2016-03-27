@@ -34,14 +34,16 @@ public class ControlGPIO {
                 case "off":
                     outputPin.low();
                     break;
+                case "p":
+                    outputPin.pulse(1000);
+                    break;
                 default:
-                    System.out.println("Please, enter \"on\", \"off\" or \"q\"");
+                    System.out.println("Please, enter \"on\", \"off\", \"p\" or \"q\"");
                     break;
             }
             System.out.print("Enter the option: ");
         }
         System.out.println("\nThe End");
-
         controller.shutdown();
     }
 }
