@@ -11,7 +11,7 @@ import java.io.InputStreamReader;
  */
 
 public class ControlGPIO {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, InterruptedException {
         final GpioController controller = GpioFactory.getInstance();
         final GpioPinDigitalOutput outputPin =
                 controller.provisionDigitalOutputPin(RaspiPin.GPIO_29, "ledPin", PinState.LOW);
@@ -24,8 +24,7 @@ public class ControlGPIO {
                 "enter \"q\" to exit\n" +
                 "enter \"on\" to turn on the led\n" +
                 "enter \"off\" to turn off the led\n" +
-                "enter \"p\" to pulse\n" +
-                "enter \"b\" to blink 5 times\n" +
+                "enter \"p\" to pulse 5 times\n" +
                 "------------------");
 
         String nextInput;
@@ -39,17 +38,14 @@ public class ControlGPIO {
                     outputPin.low();
                     break;
                 case "p":
-                    outputPin.pulse(1000);
-                    break;
-                case "b":
                     int count = 5;
                     while (count > 0) {
-                        outputPin.blink(1000, 1000);
-                        count--;
+                        outputPin.pulse(1000);
+                        Thread.sleep(1000);
                     }
                     break;
                 default:
-                    System.out.println("Please, enter \"on\", \"off\", \"p\", \"b\" or \"q\"");
+                    System.out.println("Please, enter \"on\", \"off\", \"p\" or \"q\"");
                     break;
             }
             System.out.print("Enter the option: ");
