@@ -40,7 +40,7 @@ public class ControlGPIO {
                 case "p":
                     int count = 5;
                     while (count > 0) {
-                        outputPin.pulse(1000);
+                        outputPin.blink(1000, 1000);
                         Thread.sleep(1000);
                         count--;
                     }
