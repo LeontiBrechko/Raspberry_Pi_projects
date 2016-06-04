@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a00b5a0c-de1a-4abd-a5c8-a1a4f08be283" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/examples/PIRMotion.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Raspberry_Pi_projects.iws" />
@@ -39,8 +38,8 @@
       <file leaf-file-name="PIRMotion.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/examples/PIRMotion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.76704544">
-              <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.4474432">
+              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,6 +106,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -147,7 +147,6 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -690,7 +689,9 @@
       <option name="number" value="Default" />
       <updated>1459104338797</updated>
       <workItem from="1459104341831" duration="9639000" />
-      <workItem from="1462197851059" duration="832000" />
+      <workItem from="1462197851059" duration="1209000" />
+      <workItem from="1462217267174" duration="82000" />
+      <workItem from="1462282781035" duration="785000" />
     </task>
     <task id="LOCAL-00001" summary="GPIO control test">
       <created>1459111860335</created>
@@ -752,11 +753,17 @@
       <option name="project" value="LOCAL" />
       <updated>1459121262359</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="PIR motion sensor test&#10;">
+      <created>1462199088514</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1462199088514</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10471000" />
+    <option name="totallyTimeSpent" value="11715000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -806,7 +813,8 @@
     <MESSAGE value="GPIO control test (5 sec blink test and shutdown settings)" />
     <MESSAGE value="GPIO control test (proper pulse)" />
     <MESSAGE value="GPIO control test (proper pulse 5 times)" />
-    <option name="LAST_COMMIT_MESSAGE" value="GPIO control test (proper pulse 5 times)" />
+    <MESSAGE value="PIR motion sensor test&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="PIR motion sensor test&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -825,11 +833,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/examples/ControlGPIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/examples/ControlGPIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$PROJECT_DIR$/../../libs/pi4j-1.0/lib/pi4j-core-sources.jar!/com/pi4j/io/gpio/GpioPinDigitalOutput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42735043">
           <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -872,7 +895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7077922">
           <caret line="89" column="16" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -888,14 +910,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33238637">
           <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/examples/PIRMotion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76704544">
-          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.4474432">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
